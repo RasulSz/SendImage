@@ -41,7 +41,7 @@ namespace SendImage
                     information.Content = "Connected to server . . .";
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 information.Content = "Cannot Connect to server . . .";
             }
