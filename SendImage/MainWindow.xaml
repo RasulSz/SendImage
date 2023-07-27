@@ -1,0 +1,15 @@
+﻿<Window x:Class="SendImage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SendImage"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="520" Width="650">
+    <Canvas>
+        <Button Click="Button_Click" Content="Select Image" FontSize="23" Height="63" Width="162" Canvas.Left="30" Canvas.Top="410" HorizontalAlignment="Left" VerticalAlignment="Top" ></Button>
+        <Image Name="SelectedImage" Stretch="Uniform"  Height="302" Width="574" Canvas.Top="46" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="38" />
+        <Button Name="SendBtn" Click="SendBtn_Click" Content="Send Image" FontSize="30" Height="63" Width="320" Canvas.Left="290" Canvas.Top="410" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.504,0.526" />
+        <Label Name="information" Height="30" Width="268"></Label>
+    </Canvas>
+</Window>
